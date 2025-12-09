@@ -1,6 +1,6 @@
 <?php
 	//Realizafo por Pablo
 	//El nombre por defecto es mundo
-	$nombre= isset($arg[1]) ? $arg[1] : "Mundo";
+	$nombre=trim(fgets(STDIN));
 	@print "Hola {$nombre}\n";
 ?>
